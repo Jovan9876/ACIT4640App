@@ -18,4 +18,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: jovan9876/ACIT4640App:latest
+        tags: jovan9876/acit4640app:latest
