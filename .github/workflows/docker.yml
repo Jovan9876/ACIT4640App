@@ -9,6 +9,8 @@ jobs:
     steps:
     - name: Check out the repo
       uses: actions/checkout@v3
+    - name: checks dir
+      run: ls
     - name: Login to docker hub
       uses: docker/login-action@v2
       with:
