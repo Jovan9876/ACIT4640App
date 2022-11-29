@@ -16,6 +16,8 @@ WORKDIR /app/src
 
 COPY . .
 
+RUN chown -R backend /app/src
+
 RUN python -m pip install -r /app/src/requirements.txt
 
 
